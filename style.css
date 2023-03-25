@@ -1,0 +1,14 @@
+body
+{
+    background-image: url('biryani.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-title
+{
+    color: rgb(165, 87, 42);
+}
+#main
+{
+    background-color: blanchedalmond;
+}
