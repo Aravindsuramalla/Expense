@@ -11,27 +11,28 @@
 <body>
   <header id="main-header" class="bg-success text-white p-4 mb-3">
     <div class="container">
-      <h1 id="header-title">Biryani House <span style="display:none">123</span></h1>
+      <h1 id="header-title">MY EXPENSES <span style="display:none">123</span></h1>
     </div>
   </header>
   <div class="container">
    <div id="main" class="card card-body">
     <h2 class="title">Add Items</h2>
     <form class="form-inline mb-3" id="Expense" onsubmit="viewExpense(event)" name="view-Expenses">
-        <label>Choose Item: </label>
-        <select required id="item"> 
+        --<label>Choose Item: </label>
+        <!--<select required id="item"> 
             <option></option>  
             <option class="form-control mr-2">Chicken Dum Biryani </option>
             <option class="form-control mr-2">Mutton Biryani</option>
             <option class="form-control mr-2">Fish Biryani</option>
             <option class="form-control mr-2">Prawns Biryani </option>
             <option class="form-control mr-2">panner Biryani</option>
-        </select></br>
+        </select></br>-->
+        <input type="text" class="form-control mr-2" id="item">
         <label>Choose Quantity: </label>
         <input type="number" class="form-control mr-2" id="quantity">
         <label>Amount: </label>
         <input type="text" class="form-control mr-2" id="amount">
-        <input type="submit" class="btn btn-dark" value="Add Expense">
+        <input type="submit" class="btn btn-dark" value="Add Expense" id="add-expense">
     </form>
     <h2 class="title">Items</h2>
     <ul id="view-item" class="list-group">
